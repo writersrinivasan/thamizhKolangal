@@ -1,0 +1,30 @@
+{
+  "name": "thamizh-kolangal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Thamizh Kolangal – a colourful one-stop learning studio for traditional Tamil kolams with an agentic AI Kolam Guru (BYOK Groq).",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ai-sdk/groq": "2.0.61",
+    "ai": "5.0.285",
+    "next": "15.5.29",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "react-markdown": "10.1.0",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.1.13",
+    "@types/node": "22.18.0",
+    "@types/react": "19.1.12",
+    "@types/react-dom": "19.1.9",
+    "tailwindcss": "4.1.13",
+    "typescript": "5.9.2"
+  }
+}
